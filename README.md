@@ -55,11 +55,11 @@ Available commands:
 	- Decrease brightness by 10 (clamped to 0).
 	- Example: `python main.py decrease`
 
-- brightness <value>
+- brightness \<value\>
 	- Set an explicit brightness value (0-100).
 	- Example: `python main.py brightness 65`
 
-- color <h> <s> <v>
+- color \<h\> \<s\> \<v\>
 	- Set the bulb color using Kasa HSV integers: hue 0–360, saturation 0–100, value/brightness 0–100.
 	- Example: `python main.py color 0 100 51` (red-ish)
 
@@ -141,13 +141,3 @@ print(rgb_to_hsv_kasa(255, 87, 51))  # -> (something like 14, 80, 100)
 ## Safety and behavior
 
 - The scripts only interact with devices discovered on the local network and are read/write operations to your owned devices. There is no cloud access by design — everything runs locally.
-
-## TODO / possible improvements
-
-- Add hex / RGB parsing directly to `main.py` so users can call `python main.py color --hex #FF5733` or `--rgb 255 87 51`.
-- Add configuration file or CLI flags to tune `DOWNSCALE`, `BRIGHTNESS_SCALE`, `MIN_UPDATE_DELTA`, and discovery target.
-- Add a system tray/GUI helper for Windows to run ambilight without an open console.
-
----
-
-If you'd like, I can add parsing in `main.py` for hex and rgb color inputs and update the batch wrappers to use those forms. I can also add a dedicated `--help` flag that prints the same information as this README.
