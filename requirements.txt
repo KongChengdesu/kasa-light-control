@@ -1,0 +1,6 @@
+python-kasa
+pillow
+mss
+# Optional (for improved screen capture averaging)
+dxcam
+numpy

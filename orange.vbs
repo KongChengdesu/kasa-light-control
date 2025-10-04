@@ -1,0 +1,1 @@
+CreateObject("Wscript.Shell").Run "orange.bat",0,True

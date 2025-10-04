@@ -1,0 +1,1 @@
+CreateObject("Wscript.Shell").Run "cyan.bat",0,True

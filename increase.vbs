@@ -1,0 +1,1 @@
+CreateObject("Wscript.Shell").Run "increase.bat",0,True

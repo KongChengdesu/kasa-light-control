@@ -1,0 +1,1 @@
+CreateObject("Wscript.Shell").Run "purple.bat",0,True

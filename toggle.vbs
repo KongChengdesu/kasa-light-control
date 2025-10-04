@@ -1,0 +1,1 @@
+CreateObject("Wscript.Shell").Run "toggle.bat",0,True

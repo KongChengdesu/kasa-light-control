@@ -1,0 +1,1 @@
+CreateObject("Wscript.Shell").Run "brightness100.bat",0,True

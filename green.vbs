@@ -1,0 +1,1 @@
+CreateObject("Wscript.Shell").Run "green.bat",0,True

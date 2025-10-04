@@ -1,0 +1,1 @@
+CreateObject("Wscript.Shell").Run "decrease.bat",0,True

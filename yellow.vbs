@@ -1,0 +1,1 @@
+CreateObject("Wscript.Shell").Run "yellow.bat",0,True
